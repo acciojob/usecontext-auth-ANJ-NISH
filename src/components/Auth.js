@@ -7,7 +7,7 @@ export const Auth = () => {
 
   return (
     <div>
-        {values[0]? <p>You are now authenticated, you can proceed</p>:<p>you are not authenticated</p>}
+        {values[0]? <p className='authText'>You are now authenticated, you can proceed</p>:<p>you are not authenticated</p>}
         <input type="checkbox" onClick={()=>values[1]()}/>
         <label>I'm not a robot</label>
         </div>
